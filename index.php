@@ -183,7 +183,7 @@ $res_nav5= mysqli_query($xc, $sql_nav5);
                               echo '<a  href="'.$nav['Ubicacion'].'"'.' class="nav-enlace" > '.$nav['Opcion'].'</a>';
                             } ?>
       </a>
-      <!--contacto-->
+      <!--usuario-->
       <a class="nav-enlace" ><?php 
       echo 'Usuario: '.$_SESSION['usuario'];
       ?>
